@@ -3,8 +3,6 @@
 import re
 word='hello world'
 word=word.lower()
-word=re.sub('_','-',word)
-
 def encode(x):
     if x == 'a':return ".-"
     elif x == 'b':return "-..."
