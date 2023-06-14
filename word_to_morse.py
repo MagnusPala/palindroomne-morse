@@ -1,11 +1,9 @@
 #this code outputs international morse code(ITU) out of a given word
 
-#work in progress...
-
 import re
 word='hello world'
 word=word.lower()
-word=re.sub('-','_',word)
+word=re.sub('_','-',word)
 
 def encode(x):
     if x == 'a':return ".-"
@@ -48,4 +46,5 @@ def encode(x):
 output=''
 for x in word:
     output+=encode(x)+' '
+output=re.sub(' / ','/',output)[:-1]
 print(output)
