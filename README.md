@@ -10,4 +10,6 @@ The repository contains all the necessary files and instructions to run the prog
 create a website where the user can:
 1) hear and download the audio file of the outputted morse code
 2) check if a morse output is palindrome or not
-3) more requirements coming soon...
+3) show the user the international morse code (ITU) output
+4) edit the words that will be encoded to morse code
+5) more requirements coming soon...
